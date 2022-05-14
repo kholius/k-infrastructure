@@ -28,6 +28,7 @@ and Schema of KNetwork.
 | Container1 | container1 | 192.168.50.15 | x | 255.255.255.0 | Docker | 22 * | Server with Docker installed |
 | Database01 | database01 | 192.168.50.21 | x | 255.255.255.0 | SQL | * | SQL Database |
 | Database02 | database02 | 192.168.50.22 | x | 255.255.255.0 | Redis | * | NoSQL Database |
+| Database03 | database03 | 192.168.50.23 | x | 255.255.255.0 | Redis | * | NoSQL Database |
 | Services | services | 192.168.50.99 | x | 255.255.255.0 | DHCP DNS | 22 53 67 68 | Server with classic services DHCP and DNS |
 | IntraWeb | intraweb | 192.168.50.100 | x | 255.255.255.0 | Nginx | * | Web Server |
 | ESXI | esxi |192.168.50.200 | x | 255.255.255.0 | Hosting VM | 80 443 * | HyperV which Hosting some VM - Access with Web Interface |

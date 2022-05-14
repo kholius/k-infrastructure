@@ -1,0 +1,21 @@
+[bastion]
+192.168.50.9 # bastion2
+192.168.50.10 # bastion1
+
+[provider]
+192.168.50.11 # provider1
+192.168.50.12 # provider2
+
+[container]
+192.168.50.15 #container1
+
+[database]
+192.168.50.21 # database1 - PostgeSQL
+192.168.50.22 # database2 - Redis
+192.168.50.23 # database3 - MongoDB
+
+[services]
+192.168.50.99 # services
+
+[web]
+192.168.50.100 # intraweb
